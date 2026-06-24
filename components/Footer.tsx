@@ -7,9 +7,9 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-navy py-10 text-white md:py-12">
+    <footer className="bg-navy py-8 text-white md:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4">
           <div>
             <Image
               src="/logo.png"
@@ -92,7 +92,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-white/10 pt-6 text-center text-sm text-white/50">
+        <div className="mt-6 border-t border-white/10 pt-5 text-center text-sm text-white/50 sm:mt-10 sm:pt-6">
           &copy; {year} {BUSINESS.name}. All rights reserved.
         </div>
       </div>

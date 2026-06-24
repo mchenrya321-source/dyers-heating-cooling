@@ -84,36 +84,42 @@ export const SERVICES = [
     title: "AC Repair",
     description:
       "Fast, reliable air conditioning repair to restore your comfort when Louisiana heat strikes.",
+    shortDescription: "Fast, reliable AC repair when Louisiana heat strikes.",
     icon: "snowflake" as const,
   },
   {
     title: "Heating Repair",
     description:
       "Expert heating system diagnostics and repair to keep your home warm all winter.",
+    shortDescription: "Expert heating diagnostics and repair all winter long.",
     icon: "flame" as const,
   },
   {
     title: "HVAC Installation",
     description:
       "Professional installation of energy-efficient heating and cooling systems tailored to your home.",
+    shortDescription: "Energy-efficient heating and cooling system installation.",
     icon: "install" as const,
   },
   {
     title: "Preventative Maintenance",
     description:
       "Routine tune-ups that extend equipment life, improve efficiency, and prevent costly breakdowns.",
+    shortDescription: "Tune-ups that extend equipment life and prevent breakdowns.",
     icon: "shield" as const,
   },
   {
     title: "Residential HVAC",
     description:
       "Complete heating and cooling solutions for homeowners across Northeast Louisiana.",
+    shortDescription: "Complete heating and cooling for Northeast Louisiana homes.",
     icon: "house" as const,
   },
   {
     title: "Commercial HVAC",
     description:
       "Reliable climate control for businesses, offices, and commercial properties of all sizes.",
+    shortDescription: "Reliable climate control for businesses and offices.",
     icon: "building" as const,
   },
 ];

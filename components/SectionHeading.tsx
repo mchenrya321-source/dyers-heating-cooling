@@ -12,9 +12,9 @@ export default function SectionHeading({
   centered = true,
 }: SectionHeadingProps) {
   return (
-    <div className={`mb-8 md:mb-10 ${centered ? "text-center" : ""}`}>
+    <div className={`mb-5 md:mb-10 ${centered ? "text-center" : ""}`}>
       <h2
-        className={`text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl ${
+        className={`text-xl font-bold tracking-tight sm:text-3xl md:text-4xl ${
           light ? "text-white" : "text-navy"
         }`}
       >
@@ -22,7 +22,7 @@ export default function SectionHeading({
       </h2>
       {subtitle && (
         <p
-          className={`mt-3 max-w-2xl text-base leading-relaxed sm:text-lg ${
+          className={`mt-2 max-w-2xl text-sm leading-relaxed sm:mt-3 sm:text-lg ${
             centered ? "mx-auto" : ""
           } ${light ? "text-white/80" : "text-slate-600"}`}
         >

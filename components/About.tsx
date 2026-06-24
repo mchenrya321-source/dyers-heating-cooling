@@ -6,11 +6,11 @@ import SectionHeading from "./SectionHeading";
 
 export default function About() {
   return (
-    <section className="bg-light-gray py-12 md:py-16">
+    <section className="bg-light-gray py-10 md:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="grid items-center gap-5 sm:gap-8 lg:grid-cols-2 lg:gap-12">
           <AnimatedSection>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+            <div className="relative aspect-[16/10] overflow-hidden rounded-xl shadow-xl sm:aspect-[4/3] sm:rounded-2xl">
               <Image
                 src="/about.jpg"
                 alt="Residential home in Northeast Louisiana served by Dyer's AIRCO"
@@ -28,7 +28,7 @@ export default function About() {
               title="Your Local Heating & Cooling Experts"
               centered={false}
             />
-            <p className="text-base leading-relaxed text-slate-600 sm:text-lg">
+            <p className="text-sm leading-relaxed text-slate-600 sm:text-lg">
               We are a locally owned HVAC company dedicated to providing
               professional, reliable, and honest heating and cooling services
               throughout Northeast Louisiana. Whether you need emergency AC

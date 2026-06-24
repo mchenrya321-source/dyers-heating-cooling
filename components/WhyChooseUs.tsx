@@ -24,7 +24,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-light-gray py-12 md:py-16">
+    <section className="bg-light-gray py-10 md:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <SectionHeading
@@ -33,17 +33,17 @@ export default function WhyChooseUs() {
           />
         </AnimatedSection>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-4 lg:grid-cols-3 lg:gap-6">
           {WHY_CHOOSE_US.map((item, index) => {
             const Icon = iconMap[item.icon];
             return (
               <AnimatedSection key={item.title} delay={index * 0.08}>
-                <div className="group h-full rounded-2xl bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-7">
-                  <div className="mb-4 inline-flex rounded-xl bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-                    <Icon className="h-6 w-6" aria-hidden="true" />
+                <div className="group h-full rounded-xl bg-white p-4 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:rounded-2xl sm:p-6 md:p-7">
+                  <div className="mb-2 inline-flex rounded-lg bg-primary/10 p-2 text-primary transition-colors group-hover:bg-primary group-hover:text-white sm:mb-4 sm:rounded-xl sm:p-3">
+                    <Icon className="h-4 w-4 sm:h-6 sm:w-6" aria-hidden="true" />
                   </div>
-                  <h3 className="text-lg font-bold text-navy">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-base">
+                  <h3 className="text-sm font-bold text-navy sm:text-lg">{item.title}</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-slate-600 sm:mt-2 sm:text-sm md:text-base">
                     {item.description}
                   </p>
                 </div>
