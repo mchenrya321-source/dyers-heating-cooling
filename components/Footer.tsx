@@ -14,9 +14,9 @@ export default function Footer() {
             <Image
               src="/logo.png"
               alt="Dyer's AIRCO Heating & Cooling"
-              width={160}
-              height={56}
-              className="h-12 w-auto"
+              width={224}
+              height={78}
+              className="h-16 w-auto"
               loading="lazy"
             />
             <a

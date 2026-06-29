@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[75vh] items-center justify-center overflow-hidden pt-16 md:min-h-[85vh]"
+      className="relative flex min-h-[75vh] items-center justify-center overflow-hidden pt-[4.5rem] md:min-h-[85vh] md:pt-20"
     >
       <Image
         src="/hero-background.jpg"
@@ -37,9 +37,9 @@ export default function Hero() {
             <Image
               src="/logo.png"
               alt="Dyer's AIRCO Heating & Cooling"
-              width={320}
-              height={110}
-              className="h-auto w-44 drop-shadow-2xl sm:w-72 md:w-80"
+              width={448}
+              height={154}
+              className="h-auto w-64 drop-shadow-2xl sm:w-[26rem] md:w-[28rem]"
               priority
             />
           </div>

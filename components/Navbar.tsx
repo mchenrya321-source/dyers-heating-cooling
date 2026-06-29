@@ -36,7 +36,7 @@ export default function Navbar() {
       }`}
     >
       <nav
-        className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:h-18 sm:px-6 lg:px-8"
+        className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between px-4 sm:h-20 sm:px-6 lg:px-8"
         aria-label="Main navigation"
       >
         <Link
@@ -47,9 +47,9 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Dyer's AIRCO Heating & Cooling"
-            width={140}
-            height={48}
-            className="h-10 w-auto sm:h-11"
+            width={196}
+            height={67}
+            className="h-14 w-auto sm:h-16"
             priority
           />
         </Link>
